@@ -35,7 +35,7 @@ print(table_lines[0], table_lines[-1])
 file_head = r_lines[:table_lines[0]]
 file_foot = r_lines[table_lines[-1] + 1:]
 
-with open("./test_readme.txt", "w") as test:
+with open("./README.md", "w") as test:
     test.writelines(file_head)
     test.writelines(result)
     test.writelines(file_foot)
